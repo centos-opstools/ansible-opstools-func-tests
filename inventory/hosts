@@ -1,0 +1,7 @@
+[undercloud]
+undercloud-0
+[opstools]
+opstools-0
+[seal09]
+seal09.qa.lab.tlv.redhat.com
+
