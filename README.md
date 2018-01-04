@@ -10,10 +10,8 @@ The playbook will generate an inventory file for the tripleo environment.
 * TripleO
     * Post install
       * Openstack tasks
-      * Fluentd taks
-
-## How to contribue
-Patches should be submitted using git review to the GerritHub.
+      * Fluentd tasks
+      * Sensu tasks
 
 ## Note
 Please, modify the playbooks variables to meet your needs before running the playbooks.
@@ -25,4 +23,4 @@ Note the '@' sign, which is used to apply the variables located within the provi
 ansible-playbook playbooks/path/to/the/playbook.yml -e @/path/to/the/variable/file.yml
 ```
 
-For any question, refer to the NFV Cloud QE team - nfv-cloud-qe-team@redhat.com
+For any question, refer to the Opstools  QE team - lnatapov@redhat.com
