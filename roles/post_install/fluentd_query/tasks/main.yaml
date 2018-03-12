@@ -23,7 +23,7 @@
   shell: "/bin/bash /tmp/query_flavor.sh &"
 
 - name: Check whether flavor creation log exist
-  command: grep  test1 /tmp/output_flavor_query.txt
+  command: grep  fluentd-test1 /tmp/output_flavor_query.txt
   register: checkmyconf
   check_mode: no
   ignore_errors: yes

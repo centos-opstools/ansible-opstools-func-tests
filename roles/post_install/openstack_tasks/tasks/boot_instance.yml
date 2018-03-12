@@ -62,8 +62,8 @@
     key_name: ansible_key
     security_groups: nfv-test
     nics:
-      - net-id: "{{ external_network_id.ansible_facts.openstack_networks.0.id }}"
-    #  - net-id: "{{ internal_network_id.ansible_facts.openstack_networks.0.id }}"
+    #  - net-id: "{{ external_network_id.ansible_facts.openstack_networks.0.id }}"
+      - net-id: "{{ internal_network_id.ansible_facts.openstack_networks.0.id }}"
     #  - net-id: "{{ internal_network_id.ansible_facts.openstack_networks.1.id }}"
   with_items:
     - "{{ instances }}"
